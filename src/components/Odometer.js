@@ -12,7 +12,7 @@ const Odometer = (props) => {
         value={currentChargerOutput}
         maxValue={totalChargerOutput}
         circleRatio={0.65} // Make circle only 0.65 of the full diameter
-        strokeWidth={12}
+        strokeWidth={13}
         styles={{
           trail: {
             strokeLinecap: "butt",
@@ -24,7 +24,7 @@ const Odometer = (props) => {
             strokeLinecap: "butt",
             transform: "rotate(-117deg)",
             transformOrigin: "center center",
-            stroke: "#7cdbc7",
+            stroke: "#7cdbc7"
           }
         }}
       >
