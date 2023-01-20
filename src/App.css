@@ -1,0 +1,46 @@
+.App {
+  margin-left: 24px;
+  width: 50%;
+}
+
+.heading {
+  color: #868686;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.odometer {
+  width: 40%;
+  margin-left: 48px;
+}
+
+.odometer-label {
+  border-radius: 80px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0px 23px 9px #efefef;
+  margin-top: -14px;
+}
+
+.odometer-data {
+  font-size: 1.5rem;
+  margin-top: 25%;
+  font-weight: 600;
+}
+
+.odometer-data-text {
+  text-align: center;
+  color: #989898;
+}
+
+.odemeter-min-max-label {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -95px;
+  width: 80%;
+  margin-left: 32px;
+  font-weight: 500;
+}
